@@ -1,0 +1,30 @@
+    /* selecter */
+
+    p
+    {
+        background-color:black;
+        color:rgb(253, 3, 183);
+    }
+
+    .para1 /* CLASS have more priority then TAG name */
+    {
+        background-color:white;
+        color:blue;
+    }
+
+    .para2
+    {
+        background-color:white;
+        color:green
+    }
+
+    #one /* ID have more priority then CLASS  & ID is use for a single tag olny */
+    {
+        color:darkorange;
+    }
+
+    pre
+    {
+        background-color: black;
+        color:aliceblue    
+    }
